@@ -23,7 +23,7 @@ object Assignment2 extends App {
   //val vaxtypeCounts = data.groupBy(_(1)).mapValues(_.size)
   //val mostCommonVax = vaxtypeCounts.maxBy(_._2)
 
-  //val headacheOccurrences = data.groupBy(_(1)).mapValues(records => {
+  val headacheOccurrences = data.groupBy(_(1)).mapValues(records => {
   //val headacheCounts = records.map(record => getColumnValue(record, 12) + getColumnValue(record, 24)).sum
   //val average = headacheCounts.toDouble / records.size
   //BigDecimal(average).setScale(2, RoundingMode.HALF_UP).toDouble
